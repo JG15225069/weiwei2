@@ -1,0 +1,146 @@
+/* 
+* @Author: zmingh
+* @Date:   2017-02-28 23:44:31
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-03-01 23:01:10
+*/
+body
+{
+    background-color: #ccc;
+    font-size: 14px;
+}
+body > div{
+    overflow: hidden;
+}
+div{
+    background-color: #fff;
+}
+.navigation{
+    background-color: #3c3c3c;
+    position: relative;
+    height: 50px;
+}
+div.navigation img{
+    position: absolute; 
+    width: 150px;
+    height: 50px;
+    left: 50px;
+    margin: 0px;
+}
+div.navigation ul
+{
+    position: absolute;
+    right: 20px;
+}
+div.navigation ul li{
+    float: left;
+    /*border-right: 1px;*/
+    margin-right: 20px;
+}
+div.navigation ul li a{
+    color: #fff;
+    font-size: 12px;
+}
+
+.navigation ~ div{
+    margin: 10px;
+}
+h2{
+    
+    padding: 10px;
+    margin:  30px 20px 20px;
+}
+h2 ~ *{
+    padding:10px;
+    margin: 20px;
+}
+
+.secondblock ul{
+    margin:20px;   
+}
+.secondblock ul li
+{
+    list-style: none;
+}
+
+.thirdblock div{
+    border:1px solid black;
+    width:120px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    
+}
+.thirdblock div img{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.thirdblock div p{
+    text-align: center;
+}
+
+.forthblock ol{
+    margin-left:30px;
+}
+.forthblock table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.forthblock table,
+.forthblock td,
+.forthblock th{
+    border: 1px solid #ccc;
+}
+.forthblock table caption{
+    text-align: left;
+}
+.forthblock table thead{
+    background-color: #3c3c3c;
+    color: white;
+}
+.forthblock table thead th{
+    text-align: left;
+}
+.forthblock tr:last-child > td{
+    background-color: #ccc;
+}
+.lastblock h2{
+    border-left: 2px solid #ccc;
+}
+form{
+    overflow: hidden;
+}
+.lastblock p{
+    height: 30;
+}
+#shuru{
+    margin: auto;
+    width: 300px;
+    padding-bottom:10px;
+    /*border: solid;*/
+}
+#wenzi{
+    margin: auto;
+    text-align:right;
+    width:200px;
+    float: left;
+    margin-left: 540px;
+    padding-bottom: 10px;
+    /*border: solid;*/
+
+}
+.tishi{
+    color: #ccc;
+}
+textarea{
+    font-size: 20px;
+    font-family: black;
+}
+#i_submit input{
+    width:100%;
+    color: white;
+    height: 30px;
+    background-color: #0080ff;
+}
+
